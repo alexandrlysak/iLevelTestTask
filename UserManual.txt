@@ -1,0 +1,26 @@
+1. php artisan migrate
+2. php artisan db:seed [ Creating user Administrator with login: admin@mail.com pass: upass ]
+4. php artisan passport:install
+3. php artisan serve
+
+API REQUESTS
+
+/api/auth/login - login user with email and password
+
+/api/auth/logout - logout user
+
+/api/get-categories-list - Get all categories
+
+/api/get-category-products-list - Get category products by category id
+
+/api/add-category - Add new Category
+/api/edit-category - Edit Category
+/api/delete-category - Delete Category
+
+/api/add-product - Add new Product
+/api/edit-product - Edit Product
+/api/delete-product - Delete Product
+
+p.s.
+
+All API Requests was success tested with postman
